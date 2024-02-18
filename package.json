@@ -1,0 +1,14 @@
+{
+  "name": "http-proxy-script",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --watch ./src/index.ts"
+  }
+}
